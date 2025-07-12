@@ -1,0 +1,10 @@
+env: local
+storage_path: ./storage/app.db
+temp_files: ./temp
+exchange_files: ./exchange-files
+http_service:
+  address: 0.0.0.0:8082
+  timeout: 4s
+  idle_timeout: 6s
+  user: rust
+  password: pass
